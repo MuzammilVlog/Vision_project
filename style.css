@@ -1,0 +1,608 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    transition: 1s;
+}
+.navbar-brand:hover{
+    color: yellowgreen;
+}
+.nav-link{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+    transition: 1s;
+    text-transform: uppercase
+}
+.nav-link:hover{
+    color: yellowgreen;
+}
+#nav{
+    background-color: #391f14;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    margin-right: -35px;
+    outline: none;
+    border: 2px solid rgb(248,26,92);
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(248,26,92);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+#box{
+    width: 36%;
+    height: 92.2vh;
+    border: 1px solid black;
+    background-color: #391f14;
+}
+#img{
+    width: 64%;
+    height: 92.2vh;
+    background-image: url(./img/img1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    color: white;
+    margin-top: -60%;
+    margin-left: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 450%;
+}
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 80%;
+    margin-left: 2%;
+}
+#btn{
+    width: 14%;
+    height: 5vh;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+@media screen and (max-width:767px){
+    h1{
+        color: white;
+        margin-top: -130%;
+        margin-left: 3%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 270%;
+    }
+    p{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 80%;
+        margin-left: 2%;
+    }
+    #btn{
+        width: 30%;
+        height: 7vh;
+        margin-top: 1%;
+        margin-left: 2%;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    h1{
+        color: white;
+        margin-top: -190%;
+        margin-left: 4%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 370%;
+    }
+    p{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 85%;
+        margin-left: 5%;
+    }
+    #btn{
+        width: 37%;
+        height: 5vh;
+        margin-top: 1%;
+        margin-left: 5%;
+    }
+} 
+@media screen and (min-width:1024px){
+    h1{
+        color: white;
+        margin-top: -80%;
+        margin-left: 3%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 350%;
+    }
+    p{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 60%;
+        margin-left: 3%;
+    }
+    #btn{
+        width: 23%;
+        height: 7vh;
+        margin-top: 1%;
+        margin-left: 3%;
+    }
+}
+@media screen and (min-width:1280px){
+    h1{
+        color: white;
+        margin-top: -60%;
+        margin-left: 3%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 450%;
+    }
+    p{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 80%;
+        margin-left: 2%;
+    }
+    #btn{
+        width: 14%;
+        height: 5vh;
+        margin-top: 1%;
+        margin-left: 2%;
+    }
+}
+h2{
+    margin-left: 30%;
+    padding: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 300%;
+    transition: 1s;
+}
+h2:hover{
+    color: green;
+    cursor: pointer;
+}
+span{
+    color: #391f14;
+}
+.p1{
+    margin-top: -8%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 90%;
+    margin-left: 30%;
+}
+h3{
+    margin-top: 32%;
+    margin-left: -37%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 380%;
+}
+.p2{
+    margin-left: -37%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 120%;
+}
+#img1{
+    width: 50%;
+    height: 50vh;
+    background-image: url(https://preview.colorlib.com/theme/ecoho/assets/img/gallery/about1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 15%;
+}
+#btn1{
+    width: 19%;
+    height: 5vh;
+    margin-left: -37%;
+    margin-top: 3%;
+}
+#img2{
+    width: 40%;
+    height: 40vh;
+    background-image: url(https://preview.colorlib.com/theme/ecoho/assets/img/gallery/about2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -20%;
+    margin-left: 60%;
+}
+@media screen and (max-width:767px){
+    h2{
+        margin-left: -18%;
+        padding: 110px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 173%;
+        transition: 1s;
+    }
+    h2:hover{
+        color: green;
+        cursor: pointer;
+    }
+    span{
+        color: #391f14;
+    }
+    .p1{
+        margin-top: -31%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 90%;
+        margin-left: 10%;
+    }
+    h3{
+        margin-top: 32%;
+        margin-left: 1%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 170%;
+    }
+    .p2{
+        margin-left: 1%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 100%;
+    }
+    #img1{
+        width: 98%;
+        height: 50vh;
+        background-image: url(https://preview.colorlib.com/theme/ecoho/assets/img/gallery/about1.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 15%;
+        margin-left: 1%;
+    }
+    #btn1{
+        width: 35%;
+        height: 7vh;
+        margin-left: 1%;
+        margin-top: 5%;
+    }
+    #img2{
+        width: 71%;
+        height: 40vh;
+        background-image: url(https://preview.colorlib.com/theme/ecoho/assets/img/gallery/about2.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: -48%;
+        margin-left: 28%;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    h2{
+        margin-left: 10%;
+        padding: 110px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 320%;
+        transition: 1s;
+    }
+    h2:hover{
+        color: green;
+        cursor: pointer;
+    }
+    span{
+        color: #391f14;
+    }
+    .p1{
+        margin-top: -16%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 90%;
+        margin-left: 10%;
+    }
+    h3{
+        margin-top: 32%;
+        margin-left: -10%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 180%;
+    }
+    .p2{
+        margin-left: -10%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 100%;
+    }
+    #img1{
+        width: 50%;
+        height: 30vh;
+        background-image: url(https://preview.colorlib.com/theme/ecoho/assets/img/gallery/about1.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 15%;
+    }
+    #btn1{
+        width: 39%;
+        height: 5vh;
+        margin-left: -11%;
+        margin-top: 4%;
+    }
+    #img2{
+        width: 40%;
+        height: 30vh;
+        background-image: url(https://preview.colorlib.com/theme/ecoho/assets/img/gallery/about2.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: -20%;
+        margin-left: 60%;
+    } 
+}
+@media screen and (min-width:1024px){
+    h2{
+        margin-left: 20%;
+        padding: 110px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 350%;
+        transition: 1s;
+    }
+    h2:hover{
+        color: green;
+        cursor: pointer;
+    }
+    span{
+        color: #391f14;
+    }
+    .p1{
+        margin-top: -11.6%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 90%;
+        margin-left: 23.5%;
+    }
+    h3{
+        margin-top: 32%;
+        margin-left: -10%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 250%;
+    }
+    .p2{
+        margin-left: -9%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 80%;
+    }
+    #img1{
+        width: 50%;
+        height: 50vh;
+        background-image: url(https://preview.colorlib.com/theme/ecoho/assets/img/gallery/about1.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 15%;
+    }
+    #btn1{
+        width: 25%;
+        height: 7vh;
+        margin-left: -8%;
+        margin-top: 4%;
+    }
+    #img2{
+        width: 40%;
+        height: 40vh;
+        background-image: url(https://preview.colorlib.com/theme/ecoho/assets/img/gallery/about2.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: -20%;
+        margin-left: 60%;
+    }
+}
+@media screen and (min-width:1280px){
+    h2{
+        margin-left: 30%;
+        padding: 110px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 300%;
+        transition: 1s;
+    }
+    h2:hover{
+        color: green;
+        cursor: pointer;
+    }
+    span{
+        color: #391f14;
+    }
+    .p1{
+        margin-top: -8%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 90%;
+        margin-left: 30%;
+    }
+    h3{
+        margin-top: 32%;
+        margin-left: -37%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 380%;
+    }
+    .p2{
+        margin-left: -37%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 120%;
+    }
+    #img1{
+        width: 50%;
+        height: 50vh;
+        background-image: url(https://preview.colorlib.com/theme/ecoho/assets/img/gallery/about1.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 15%;
+    }
+    #btn1{
+        width: 19%;
+        height: 5vh;
+        margin-left: -37%;
+        margin-top: 3%;
+    }
+    #img2{
+        width: 40%;
+        height: 40vh;
+        background-image: url(https://preview.colorlib.com/theme/ecoho/assets/img/gallery/about2.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: -20%;
+        margin-left: 60%;
+    }
+}
+h4{
+    margin-top: 8%;
+    margin-left: 35%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 300%;
+}
+.p3{
+    margin-left: 38%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 130%;
+}
+#cards_landscape_wrap-2{
+    text-align: center;
+    background: #F7F7F7;
+  }
+  #cards_landscape_wrap-2 .container{
+    padding-top: 10px; 
+    padding-bottom: 100px;
+  }
+  #cards_landscape_wrap-2 a{
+    text-decoration: none;
+    outline: none;
+  }
+  #cards_landscape_wrap-2 .card-flyer {
+    border-radius: 5px;
+  }
+  #cards_landscape_wrap-2 .card-flyer .image-box{
+    background: #ffffff;
+    overflow: hidden;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+    border-radius: 5px;
+  }
+  #cards_landscape_wrap-2 .card-flyer .image-box img{
+    -webkit-transition:all .9s ease; 
+    -moz-transition:all .9s ease; 
+    -o-transition:all .9s ease;
+    -ms-transition:all .9s ease; 
+    width: 100%;
+    height: 200px;
+  }
+  #cards_landscape_wrap-2 .card-flyer:hover .image-box img{
+    opacity: 0.7;
+    -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    -o-transform:scale(1.15);
+    transform:scale(1.15);
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box{
+    text-align: center;
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box .text-container{
+    padding: 30px 18px;
+  }
+  #cards_landscape_wrap-2 .card-flyer{
+    background: #FFFFFF;
+    margin-top: 50px;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
+  }
+  #cards_landscape_wrap-2 .card-flyer:hover{
+    background: #fff;
+    box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    margin-top: 50px;
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box p{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px; 
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #000000;
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box h6{
+    margin-top: 0px;
+    margin-bottom: 4px; 
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Roboto Black', sans-serif;
+    letter-spacing: 1px;
+    color: #00acc1;
+  }
+#second-img{
+    width: 100%;
+    height: 70vh;
+    background-image: url(./img/Capture.PNG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5%;
+}
+#third-img{
+    width: 100%;
+    height: 30vh;
+    background-image: url(./img/fir.PNG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 15%;
+}
+body{
+    background-color: #fff7f3;
+}
+#fourth-img{
+    width: 100%;
+    height: 40vh;
+    background-image: url(./img/third.PNG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10%;
+}
